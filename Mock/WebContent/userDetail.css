@@ -20,17 +20,16 @@ h1{
 	text-align: center;
 }
 
+.container{
+	width:25%;
 
-.signUp{
-	text-align: right;
-}
-
-
-
-.login-button{
-	text-align: center;
 }
 
 .return{
 	font-size: 10px;
+}
+
+
+.label {
+	width: 150px;
 }

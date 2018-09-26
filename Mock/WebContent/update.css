@@ -20,15 +20,12 @@ h1{
 	text-align: center;
 }
 
-
-.signUp{
-	text-align: right;
+.update-button{
+	text-align: center;
 }
 
-
-
-.login-button{
-	text-align: center;
+.label {
+	width: 150px;
 }
 
 .return{
