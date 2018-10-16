@@ -4,16 +4,16 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<!-- 表示領域の設定 -->
+<!-- 表示領域の設定 -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ログイン画面</title>
 
-		<!-- BootstrapとオリジナルのCSS読み込み -->
+<!-- BootstrapとオリジナルのCSS読み込み -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link  rel="stylesheet" href="login.css">
-		<!-- JQeryの読み込み -->
+<!-- JQeryの読み込み -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-		<!-- BootstrapのJS読み込み -->
+<!-- BootstrapのJS読み込み -->
 	    <script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
@@ -21,10 +21,10 @@
 			<h3>ログイン画面</h3>
 		</div>
 
-		<!-- errMsg=エラーメッセージ もし、errMsgがnullでない時false それ以外はtrue(?) -->
+<!-- errMsg=エラーメッセージ もし、errMsgがnullでない時false それ以外はtrue(?) -->
     	<c:if test="${errMsg != null}" >
 
-			<!-- class属性にalert alert-dangerを指定したdiv要素で、最重要メッセージを表示 -->
+<!-- class属性にalert alert-dangerを指定したdiv要素で、最重要メッセージを表示 -->
 	    	<div class="alert alert-danger" role="alert">
 		  		${errMsg}
 			</div>
@@ -33,7 +33,7 @@
 		<div class="container">
 			<form  action = "LoginServlet"  method = "post">
 
-				<!--ログインIDフォーム -->
+<!--ログインIDフォーム -->
 				<div class="form-group row mt-3 ml-3 pt-3">
 					<label  for = "id"  class="col-sm-4 col-form-label">ログインID</label>
 				<div class="col-sm-6">
@@ -41,7 +41,7 @@
 				</div>
 				</div>
 
-				<!--パスワードフォーム-->
+<!--パスワードフォーム-->
 				<div class="form-group row mt-3 ml-3 pt-3">
 					<label  for = "pass"  class="col-sm-4 col-form-label">パスワード</label>
 				<div class="col-sm-6">
